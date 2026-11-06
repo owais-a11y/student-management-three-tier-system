@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "mongodb-atlas": {
+      "name": "MongoDB Atlas MCP Server",
+      "description": "Explore Atlas clusters, inspect collections, manage indexes, and execute queries directly.",
+      "environment": {
+        "MONGODB_URI": "mongodb+srv://awesshaikh456_db_user:b5E%23AYv2C5d%24a8V@cluster0.lcl58ji.mongodb.net/studentDB?retryWrites=true&w=majority&appName=Cluster0"
+      }
+    },
+    "vercel": {
+      "name": "Vercel MCP Server",
+      "description": "Inspect Vercel deployments, manage project settings, review build logs, and manage domains.",
+      "environment": {
+        "VERCEL_PROJECT_ID": "prj_Q7gKHndekzVFBgaJ4tQWon68i6Yi",
+        "VERCEL_TEAM_ID": "team_dpRbYmoWV6icOCwXOM54iTek"
+      }
+    }
+  }
+}
